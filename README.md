@@ -1,2 +1,3 @@
 # Flexible-clustering-IoMT-nodes
-This work aimed to improve dependability, privacy, and performance of the IoMT-based applications
+This work aimed to improve the dependability, privacy, and performance of the IoMT-based applications.
+To follow the mentioned purposes, we defined four actual applications to analyze the efficiency of the research, which its data collection consists of the statistics of the healthcare service providers' data and sensors' information. The collected data set included the vital signs, ABG and protein blood tests, mountaineering relief, and hospitalized statistics. Also, we shared the logs of simulating the applications (With the CupCarbon tool) to verify the reported simulation results.  
