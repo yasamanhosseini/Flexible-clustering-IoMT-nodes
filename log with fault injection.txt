@@ -1,0 +1,1969 @@
+===========================
+Initialization
+======================================================
+START SIMULATION
+======================================================
+
+----------------------------------------------------------------------------
+Time : 0.0
+Min (milliseconds) : 0.0
+S5 Starts the loop section.
+S5 is waiting for data ...
+S7 Starts the loop section.
+S7 is writing the message : "1" in its buffer.
+S9 Starts the loop section.
+S9 is waiting for data ...
+S3 Starts the loop section.
+S3 is writing the message : "1" in its buffer.
+S8 Starts the loop section.
+S8 is waiting for data ...
+S1042 Starts the loop section.
+S1042 is writing the message : "1" in its buffer.
+S6 Starts the loop section.
+S6 is writing the message : "1" in its buffer.
+S4 Starts the loop section.
+S4 is writing the message : "1" in its buffer.
+S11 Starts the loop section.
+S11 is waiting for data ...
+S12 Starts the loop section.
+S12 is waiting for data ...
+S10 Starts the loop section.
+S10 is waiting for data ...
+S2 Starts the loop section.
+S2 is writing the message : "1" in its buffer.
+S1043 Starts the loop section.
+S1043 is waiting for data ...
+
+----------------------------------------------------------------------------
+Time : 8.0E-21
+Min (milliseconds) : 8.0E-21
+S7 is listening to the channel
+S7 the channel is free.
+S7 starts sending the message : "1".
+S7 has finished sending the message : "1" to the node: 
+S7 (radio: radio1) is receiving the message : "1" in its buffer.
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "1".
+S3 has finished sending the message : "1" to the node: 
+S5 (radio: radio1) is receiving the message : "1" in its buffer.
+S1042 is listening to the channel
+S1042 the channel is free.
+S1042 starts sending the message : "1".
+S1042 has finished sending the message : "1" to the node: 
+S1042 and S5.0have not the same protocol!
+S6 is listening to the channel
+S6 the channel is free.
+S6 starts sending the message : "1".
+S6 has finished sending the message : "1" to the node: 
+S6 and S7.0have not the same protocol!
+S4 is listening to the channel
+S4 the channel is free.
+S4 starts sending the message : "1".
+S4 has finished sending the message : "1" to the node: 
+S2 is listening to the channel
+S2 the channel is free.
+S2 starts sending the message : "1".
+S2 has finished sending the message : "1" to the node: 
+
+----------------------------------------------------------------------------
+Time : 0.0031373333333333336
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+S5 Buffer available, exit waiting.
+S5 READ
+S5 is reading from its buffer "1" and puts it in v
+S5 PRINT [print, "Recive=", $v]
+S5 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 0.0031373333333333336
+Min (milliseconds) : 8.0E-21
+S5 is listening to the channel
+S5 the channel is free.
+S5 starts sending the message : "1".
+S5 can not send the message : "1" to the non-existent node: 60.0
+
+----------------------------------------------------------------------------
+Time : 0.0032973333333333335
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0032514516621136
+Min (milliseconds) : 0.9999541183287802
+S7 has finished the delay.
+
+S7 MARK
+S7 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0032514516621136
+Min (milliseconds) : 8.0E-21
+S7 is listening to the channel
+S7 the channel is free.
+S7 starts sending the message : "0".
+S7 has finished sending the message : "0" to the node: 
+S7 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.003336665418248
+Min (milliseconds) : 8.521375613457226E-5
+S3 has finished the delay.
+
+S3 MARK
+S3 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.003336665418248
+Min (milliseconds) : 8.0E-21
+S3 is listening to the channel
+S3 the channel is free.
+S3 starts sending the message : "0".
+S3 has finished sending the message : "0" to the node: 
+S5 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.006388784995447
+Min (milliseconds) : 0.0030521195771987613
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.0064739987515816
+Min (milliseconds) : 8.521375613457227E-5
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 1.006548784995447
+Min (milliseconds) : 7.478624386542771E-5
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 1.0066339987515818
+Min (milliseconds) : 8.521375613457227E-5
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0065377090607877
+Min (milliseconds) : 0.9999037103092057
+S7 has finished the delay.
+
+S7 UNMARK
+S7 Starts the loop section.
+S7 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0065377090607877
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "1".
+S7 has finished sending the message : "1" to the node: 
+S7 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0066539638495837
+Min (milliseconds) : 1.1625478879606631E-4
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0066539638495837
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "1".
+S3 has finished sending the message : "1" to the node: 
+S5 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.009675042394121
+Min (milliseconds) : 0.0030210785445372672
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0097912971829173
+Min (milliseconds) : 1.1625478879606632E-4
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 2.0098350423941214
+Min (milliseconds) : 4.3745211203933664E-5
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 2.0099512971829174
+Min (milliseconds) : 1.1625478879606632E-4
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.0098239664594617
+Min (milliseconds) : 0.9998726692765442
+S7 has finished the delay.
+
+S7 MARK
+S7 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0098239664594617
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "0".
+S7 has finished sending the message : "0" to the node: 
+S7 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0099712622809194
+Min (milliseconds) : 1.4729582145756037E-4
+S3 has finished the delay.
+
+S3 MARK
+S3 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0099712622809194
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "0".
+S3 has finished sending the message : "0" to the node: 
+S5 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.010000000000001
+Min (milliseconds) : 2.8737719081739492E-5
+S1042 starts delaying for 1000.0 milliseconds
+S6 starts delaying for 1000.0 milliseconds
+S4 starts delaying for 1000.0 milliseconds
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.0129612997927953
+Min (milliseconds) : 0.0029612997927940337
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.013108595614253
+Min (milliseconds) : 1.4729582145756037E-4
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 3.0131212997927954
+Min (milliseconds) : 1.2704178542439614E-5
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 3.013137333333335
+Min (milliseconds) : 1.603354053951369E-5
+S5 starts sending the message : "1".
+S5 can not send the message : "1" to the non-existent node: 60.0
+
+----------------------------------------------------------------------------
+Time : 3.013268595614253
+Min (milliseconds) : 1.3126228091804668E-4
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.0099530740166465
+Min (milliseconds) : 0.9966844784023933
+S2 has finished the delay.
+
+S2 MARK
+S2 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.0099530740166465
+Min (milliseconds) : 8.0E-21
+S2 is listening to the channel
+S2 the channel is free.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.009955482192182
+Min (milliseconds) : 2.4081755356508613E-6
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.009955482192182
+Min (milliseconds) : 8.0E-21
+S1042 is listening to the channel
+S1042 the channel is free.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.009999657673408
+Min (milliseconds) : 4.41754812258166E-5
+S4 has finished the delay.
+
+S4 MARK
+S4 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.009999657673408
+Min (milliseconds) : 8.0E-21
+S4 is listening to the channel
+S4 the channel is free.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.0100483451284274
+Min (milliseconds) : 4.8687455019957846E-5
+S6 has finished the delay.
+
+S6 MARK
+S6 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.0100483451284274
+Min (milliseconds) : 8.0E-21
+S6 is listening to the channel
+S6 the channel is free.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 4.013288560712255
+Min (milliseconds) : 0.003240215583827033
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.013288560712255
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "1".
+S3 has finished sending the message : "1" to the node: 
+S5 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.016425894045588
+Min (milliseconds) : 0.0031373333333333336
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 4.016585894045588
+Min (milliseconds) : 1.5999999999999999E-4
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 5.009906148033291
+Min (milliseconds) : 0.9933202539877031
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 5.009910964384362
+Min (milliseconds) : 4.816351071301739E-6
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 5.009999315346814
+Min (milliseconds) : 8.835096245163321E-5
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 5.010096690256854
+Min (milliseconds) : 9.737491003991572E-5
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 5.01660585914359
+Min (milliseconds) : 0.0065091688867358055
+S3 has finished the delay.
+
+S3 MARK
+S3 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 5.01660585914359
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "0".
+S3 has finished sending the message : "0" to the node: 
+S5 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 5.019743192476923
+Min (milliseconds) : 0.0031373333333333336
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 5.0199031924769235
+Min (milliseconds) : 1.5999999999999999E-4
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 6.009859222049936
+Min (milliseconds) : 0.9899560295730129
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 6.0098664465765435
+Min (milliseconds) : 7.224526606952608E-6
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 6.009998973020221
+Min (milliseconds) : 1.325264436774498E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 6.010145035385281
+Min (milliseconds) : 1.4606236505987358E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 6.019923157574926
+Min (milliseconds) : 0.009778122189644578
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 6.019923157574926
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "1".
+S3 has finished sending the message : "1" to the node: 
+S5 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 6.023060490908259
+Min (milliseconds) : 0.0031373333333333336
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 6.023137333333335
+Min (milliseconds) : 7.68424250760986E-5
+S5 starts sending the message : "1".
+S5 can not send the message : "1" to the non-existent node: 60.0
+
+----------------------------------------------------------------------------
+Time : 6.023220490908259
+Min (milliseconds) : 8.315757492390139E-5
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 7.009812296066582
+Min (milliseconds) : 0.9865918051583227
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 7.009821928768725
+Min (milliseconds) : 9.632702142603478E-6
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 7.009998630693628
+Min (milliseconds) : 1.7670192490326642E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 7.010193380513709
+Min (milliseconds) : 1.9474982007983144E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 7.023240456006262
+Min (milliseconds) : 0.01304707549255335
+S3 has finished the delay.
+
+S3 MARK
+S3 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 7.023240456006262
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "0".
+S3 has finished sending the message : "0" to the node: 
+S5 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 7.026377789339595
+Min (milliseconds) : 0.0031373333333333336
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 7.026537789339595
+Min (milliseconds) : 1.5999999999999999E-4
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 8.009765370083228
+Min (milliseconds) : 0.9832275807436325
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 8.009777410960906
+Min (milliseconds) : 1.2040877678254347E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 8.009998288367035
+Min (milliseconds) : 2.2087740612908302E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 8.010241725642134
+Min (milliseconds) : 2.434372750997893E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 8.026557754437595
+Min (milliseconds) : 0.016316028795462123
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 8.026557754437595
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "1".
+S3 has finished sending the message : "1" to the node: 
+S5 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 8.029695087770929
+Min (milliseconds) : 0.0031373333333333336
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 8.029855087770928
+Min (milliseconds) : 1.5999999999999999E-4
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 9.009718444099871
+Min (milliseconds) : 0.9798633563289423
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 9.009732893153085
+Min (milliseconds) : 1.4449053213905216E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 9.009997946040441
+Min (milliseconds) : 2.650528873548996E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 9.01029007077056
+Min (milliseconds) : 2.9212473011974716E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 9.029875052868931
+Min (milliseconds) : 0.019584982098370896
+S3 has finished the delay.
+
+S3 MARK
+S3 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 9.029875052868931
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "0".
+S3 has finished sending the message : "0" to the node: 
+S5 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 9.033012386202264
+Min (milliseconds) : 0.0031373333333333336
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 9.033137333333334
+Min (milliseconds) : 1.2494713107002184E-4
+S5 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 9.033172386202263
+Min (milliseconds) : 3.5052868929978144E-5
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 10.009671518116516
+Min (milliseconds) : 0.9764991319142521
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 10.009997603713845
+Min (milliseconds) : 3.260855973302723E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 10.010338415898985
+Min (milliseconds) : 3.40812185139705E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 10.033135442366673
+Min (milliseconds) : 0.022797026467687442
+S5 has finished the delay.
+
+S5 MARK
+S5 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 10.033192351300265
+Min (milliseconds) : 5.690893359222571E-5
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 10.033192351300265
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "1".
+S3 has finished sending the message : "1" to the node: 
+S5 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 10.036329684633598
+Min (milliseconds) : 0.0031373333333333336
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 10.036489684633597
+Min (milliseconds) : 1.5999999999999999E-4
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 11.009624592133159
+Min (milliseconds) : 0.9731349074995619
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 11.009997261387252
+Min (milliseconds) : 3.726692540917398E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 11.010386761027412
+Min (milliseconds) : 3.894996401596629E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 11.033133551400013
+Min (milliseconds) : 0.022746790372600634
+S5 has finished the delay.
+
+S5 Starts the loop section.
+S5 Buffer available, exit waiting.
+S5 READ
+S5 is reading from its buffer "0" and puts it in v
+S5 PRINT [print, "Recive=", $v]
+S5 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 11.033133551400013
+Min (milliseconds) : 8.0E-21
+S5 is listening to the channel
+S5 the channel is free.
+S5 starts sending the message : "0".
+S5 can not send the message : "0" to the non-existent node: 60.0
+
+----------------------------------------------------------------------------
+Time : 11.0365096497316
+Min (milliseconds) : 0.003376098331587807
+S3 has finished the delay.
+
+S3 MARK
+S3 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 11.0365096497316
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "0".
+S3 has finished sending the message : "0" to the node: 
+S5 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 11.039646983064934
+Min (milliseconds) : 0.0031373333333333336
+S3 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 11.039806983064933
+Min (milliseconds) : 1.5999999999999999E-4
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 12.009577666149804
+Min (milliseconds) : 0.9697706830848717
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 12.009996919060658
+Min (milliseconds) : 4.1925291085320726E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 12.010435106155837
+Min (milliseconds) : 4.3818709517962073E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 12.039826948162935
+Min (milliseconds) : 0.029391842007097213
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 12.039826948162935
+Min (milliseconds) : 8.0E-21
+S3 starts sending the message : "1".
+S3 has finished sending the message : "1" to the node: 
+S3 and S5.0have not the same protocol!
+
+----------------------------------------------------------------------------
+Time : 13.009530740166449
+Min (milliseconds) : 0.9697037920035149
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 13.009996576734064
+Min (milliseconds) : 4.6583656761467473E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 13.010483451284264
+Min (milliseconds) : 4.868745501995786E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 14.009483814183096
+Min (milliseconds) : 0.9990003628988307
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 14.009996234407472
+Min (milliseconds) : 5.124202243761422E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 14.010531796412693
+Min (milliseconds) : 5.355620052195365E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 15.009436888199742
+Min (milliseconds) : 0.9989050917870492
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 15.009453745428491
+Min (milliseconds) : 1.6857228749556086E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 15.009995892080878
+Min (milliseconds) : 5.421466523880536E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 15.010580141541118
+Min (milliseconds) : 5.842494602394943E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 15.049826948162934
+Min (milliseconds) : 0.039246806621817676
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 16.009389962216385
+Min (milliseconds) : 0.9595630140534501
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 16.009409227620672
+Min (milliseconds) : 1.9265404285206955E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 16.009995549754287
+Min (milliseconds) : 5.863221336138702E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 16.010628486669546
+Min (milliseconds) : 6.329369152594522E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 16.04984691326094
+Min (milliseconds) : 0.039218426591393074
+S3 has finished the delay.
+
+S3 MARK
+S3 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 16.04984691326094
+Min (milliseconds) : 8.0E-21
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 17.009343036233034
+Min (milliseconds) : 0.9594961229720933
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 17.009364709812854
+Min (milliseconds) : 2.1673579820857825E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 17.009995207427693
+Min (milliseconds) : 6.304976148396868E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 17.010676831797973
+Min (milliseconds) : 6.8162437027941E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 17.04986687835894
+Min (milliseconds) : 0.03919004656096847
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 18.00929611024968
+Min (milliseconds) : 0.9594292318907365
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 18.009320192005035
+Min (milliseconds) : 2.4081755356508694E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 18.0099948651011
+Min (milliseconds) : 6.746730960655034E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 18.0107251769264
+Min (milliseconds) : 7.303118252993679E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 18.049886843456942
+Min (milliseconds) : 0.03916166653054387
+S3 has finished the delay.
+
+S3 MARK
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 19.009249184266324
+Min (milliseconds) : 0.9593623408093797
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 19.009275674197216
+Min (milliseconds) : 2.6489930892159563E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 19.00999452277451
+Min (milliseconds) : 7.1884857729132E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 19.010773522054826
+Min (milliseconds) : 7.789992803193257E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 19.049906808554944
+Min (milliseconds) : 0.03913328650011927
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 20.00920225828297
+Min (milliseconds) : 0.9592954497280228
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 20.009231156389397
+Min (milliseconds) : 2.8898106427810433E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 20.009994180447915
+Min (milliseconds) : 7.630240585171366E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 20.010821867183253
+Min (milliseconds) : 8.276867353392836E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 20.04992677365295
+Min (milliseconds) : 0.03910490646969467
+S3 has finished the delay.
+
+S3 MARK
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 21.009155332299613
+Min (milliseconds) : 0.959228558646666
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 21.00918663858158
+Min (milliseconds) : 3.13062819634613E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 21.00999383812132
+Min (milliseconds) : 8.071995397429532E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 21.01087021231168
+Min (milliseconds) : 8.763741903592415E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 21.04994673875095
+Min (milliseconds) : 0.039076526439270065
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 22.00910840631626
+Min (milliseconds) : 0.9591616675653092
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 22.009142120773756
+Min (milliseconds) : 3.371445749911217E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 22.009993495794724
+Min (milliseconds) : 8.513750209687698E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 22.010918557440103
+Min (milliseconds) : 9.250616453791993E-4
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 22.04996670384895
+Min (milliseconds) : 0.03904814640884546
+S3 has finished the delay.
+
+S3 MARK
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 23.0090614803329
+Min (milliseconds) : 0.9590947764839524
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 23.009097602965934
+Min (milliseconds) : 3.612263303476304E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 23.009993153468127
+Min (milliseconds) : 8.955505021945864E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 23.010966902568526
+Min (milliseconds) : 9.737491003991572E-4
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 23.049986668946946
+Min (milliseconds) : 0.03901976637842086
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 24.00901455434954
+Min (milliseconds) : 0.9590278854025955
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 24.00905308515811
+Min (milliseconds) : 3.853080857041391E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 24.009992811141533
+Min (milliseconds) : 9.39725983420403E-4
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 24.011015247696953
+Min (milliseconds) : 0.001022436555419115
+S6 has finished the delay.
+
+S6 MARK
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 24.050006634044948
+Min (milliseconds) : 0.03899138634799626
+S3 has finished the delay.
+
+S3 MARK
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 25.008967628366186
+Min (milliseconds) : 0.9589609943212387
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 25.009008567350293
+Min (milliseconds) : 4.093898410606478E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 25.00999246881494
+Min (milliseconds) : 9.839014646462196E-4
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 25.01106359282538
+Min (milliseconds) : 0.001071124010439073
+S6 has finished the delay.
+
+S6 UNMARK
+S6 Starts the loop section.
+S6 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 25.050026599142953
+Min (milliseconds) : 0.03896300631757166
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 26.008920702382834
+Min (milliseconds) : 0.9588941032398819
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 26.008964049542477
+Min (milliseconds) : 4.334715964171565E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 26.00999212648835
+Min (milliseconds) : 0.0010280769458720362
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 26.050046564240954
+Min (milliseconds) : 0.04005443775260609
+S3 has finished the delay.
+
+S3 MARK
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 27.00887377639948
+Min (milliseconds) : 0.9588272121585251
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 27.008919531734655
+Min (milliseconds) : 4.575533517736652E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 27.009991784161752
+Min (milliseconds) : 0.0010722524270978528
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 27.050066529338952
+Min (milliseconds) : 0.04007474517720144
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 28.00882685041612
+Min (milliseconds) : 0.9587603210771682
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 28.008875013926833
+Min (milliseconds) : 4.816351071301739E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 28.009991441835158
+Min (milliseconds) : 0.0011164279083236694
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 28.050086494436954
+Min (milliseconds) : 0.0400950526017968
+S3 has finished the delay.
+
+S3 MARK
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 29.008779924432766
+Min (milliseconds) : 0.9586934299958114
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 29.008830496119014
+Min (milliseconds) : 5.057168624866826E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 29.009991099508564
+Min (milliseconds) : 0.001160603389549486
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 29.011937074274254
+Min (milliseconds) : 0.0019459747656912496
+S7 has finished the delay.
+
+S7 UNMARK
+S7 Starts the loop section.
+S7 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 29.011937074274254
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "1".
+S7 has finished sending the message : "1" to the node: 
+S7 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 29.01507440760759
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 29.01523440760759
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 29.05010645953496
+Min (milliseconds) : 0.03487205192736757
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 30.008732998449414
+Min (milliseconds) : 0.9586265389144546
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 30.0087859783112
+Min (milliseconds) : 5.297986178431913E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 30.009990757181974
+Min (milliseconds) : 0.0012047788707753027
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 30.01522333167293
+Min (milliseconds) : 0.005232574490958486
+S7 has finished the delay.
+
+S7 MARK
+S7 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 30.01522333167293
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "0".
+S7 has finished sending the message : "0" to the node: 
+S7 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 30.018360665006266
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 30.018520665006267
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 30.050126424632964
+Min (milliseconds) : 0.03160575962669569
+S3 has finished the delay.
+
+S3 MARK
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 31.008686072466062
+Min (milliseconds) : 0.9585596478330978
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 31.008741460503384
+Min (milliseconds) : 5.5388037319969996E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 31.009990414855384
+Min (milliseconds) : 0.0012489543520011193
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 31.01850958907161
+Min (milliseconds) : 0.008519174216225722
+S7 has finished the delay.
+
+S7 UNMARK
+S7 Starts the loop section.
+S7 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 31.01850958907161
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "1".
+S7 has finished sending the message : "1" to the node: 
+S7 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 31.021646922404944
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 31.021806922404945
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 31.05014638973097
+Min (milliseconds) : 0.028339467326023812
+S3 has finished the delay.
+
+S3 UNMARK
+S3 Starts the loop section.
+S3 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 32.00863914648271
+Min (milliseconds) : 0.958492756751741
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 32.008696942695565
+Min (milliseconds) : 5.7796212855620865E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 32.009990072528794
+Min (milliseconds) : 0.0012931298332269359
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 32.02179584647028
+Min (milliseconds) : 0.011805773941492959
+S7 has finished the delay.
+
+S7 MARK
+S7 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 32.02179584647028
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "0".
+S7 has finished sending the message : "0" to the node: 
+S7 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 32.02493317980362
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 32.02509317980362
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 33.00859222049935
+Min (milliseconds) : 0.983499040695736
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 33.00865242488774
+Min (milliseconds) : 6.0204388391271735E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 33.00998973020219
+Min (milliseconds) : 0.0013373053144527525
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 33.025082103868954
+Min (milliseconds) : 0.015092373666760195
+S7 has finished the delay.
+
+S7 UNMARK
+S7 Starts the loop section.
+S7 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 33.025082103868954
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "1".
+S7 has finished sending the message : "1" to the node: 
+S7 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 33.02821943720229
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 33.02837943720229
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 34.008545294516
+Min (milliseconds) : 0.9801658573137073
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 34.00860790707993
+Min (milliseconds) : 6.26125639269226E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 34.009989387875606
+Min (milliseconds) : 0.001381480795678569
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 34.02836836126763
+Min (milliseconds) : 0.01837897339202743
+S7 has finished the delay.
+
+S7 MARK
+S7 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 34.02836836126763
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "0".
+S7 has finished sending the message : "0" to the node: 
+S7 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 34.031505694600966
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 34.03166569460097
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 35.00849836853265
+Min (milliseconds) : 0.9768326739316786
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 35.00856338927211
+Min (milliseconds) : 6.502073946257347E-5
+S1042 has finished the delay.
+
+S1042 MARK
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 35.00998904554902
+Min (milliseconds) : 0.0014256562769043857
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 35.031654618666316
+Min (milliseconds) : 0.021665573117294668
+S7 has finished the delay.
+
+S7 UNMARK
+S7 Starts the loop section.
+S7 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 35.031654618666316
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "1".
+S7 has finished sending the message : "1" to the node: 
+S7 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 35.03479195199965
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 35.03495195199965
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 36.0084514425493
+Min (milliseconds) : 0.9734994905496499
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 36.0085188714643
+Min (milliseconds) : 6.742891499822434E-5
+S1042 has finished the delay.
+
+S1042 UNMARK
+S1042 Starts the loop section.
+S1042 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 36.009988703222426
+Min (milliseconds) : 0.0014698317581302023
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 36.03494087606499
+Min (milliseconds) : 0.024952172842561904
+S7 has finished the delay.
+
+S7 MARK
+S7 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 36.03494087606499
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "0".
+S7 has finished sending the message : "0" to the node: 
+S7 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 36.03807820939832
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 36.03823820939832
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 37.008404516565946
+Min (milliseconds) : 0.9701663071676212
+S2 has finished the delay.
+
+S2 UNMARK
+S2 Starts the loop section.
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 37.00998836089584
+Min (milliseconds) : 0.001583844329889894
+S4 has finished the delay.
+
+S4 UNMARK
+S4 Starts the loop section.
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 37.03822713346367
+Min (milliseconds) : 0.02823877256782914
+S7 has finished the delay.
+
+S7 UNMARK
+S7 Starts the loop section.
+S7 is writing the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 37.03822713346367
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "1".
+S7 has finished sending the message : "1" to the node: 
+S7 (radio: radio1) is receiving the message : "1" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 37.041364466797006
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 37.04152446679701
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 38.0083575905826
+Min (milliseconds) : 0.9668331237855925
+S2 has finished the delay.
+
+S2 MARK
+S2 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 38.00998801856925
+Min (milliseconds) : 0.0016304279866513616
+S4 has finished the delay.
+
+S4 MARK
+S4 starts delaying for 1000.0 milliseconds
+
+----------------------------------------------------------------------------
+Time : 38.04151339086235
+Min (milliseconds) : 0.031525372293096376
+S7 has finished the delay.
+
+S7 MARK
+S7 is writing the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 38.04151339086235
+Min (milliseconds) : 8.0E-21
+S7 starts sending the message : "0".
+S7 has finished sending the message : "0" to the node: 
+S7 (radio: radio1) is receiving the message : "0" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 38.044650724195684
+Min (milliseconds) : 0.0031373333333333336
+S7 (radio: radio1) is receiving the message : "" in its buffer.
+
+----------------------------------------------------------------------------
+Time : 38.044810724195685
+Min (milliseconds) : 1.5999999999999999E-4
+S7 starts delaying for 1000.0 milliseconds
